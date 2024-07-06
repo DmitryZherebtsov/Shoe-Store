@@ -73,7 +73,6 @@ class MainFragment : Fragment(R.layout.fragment_mainpage),
                     true
                 }
                 R.id.likeFragment -> {
-//                    requireActivity().toast("Like Page coming Soon")
                     Navigation.findNavController(requireActivity(), R.id.fragmentContainerView)
                         .navigate(R.id.action_mainFragment_to_likeFragment2)
                     true
